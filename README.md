@@ -1,6 +1,6 @@
 # S-Kill theme for ZSH users
 
-![screenshot](https://github.com/frontendmonster/oh-my-zsh-skill-theme/raw/master/screenshot.png)
+![screenshot](https://github.com/frontendmonster/oh-my-zsh-skill-theme/raw/main/screenshot.png)
 
 ## Installation
 
@@ -9,7 +9,7 @@
 Install on [oh-my-zsh](https://ohmyz.sh/) custom themes:
 
 ```bash
-$ wget https://raw.githubusercontent.com/frontendmonster/oh-my-zsh-skill-theme/master/skill.zsh-theme -P $HOME/.oh-my-zsh/custom/themes/
+$ wget https://raw.githubusercontent.com/frontendmonster/oh-my-zsh-skill-theme/master/skill.zsh-theme -P $ZSH_CUSTOM/themes/
 ```
 
 ### Step 2
@@ -23,12 +23,8 @@ ZSH_THEME="skill"
 
 ### Step 3
 
-Run `~/.zshrc` to apply changes:
-
-```bash
-$ source ~/.zshrc
-```
+Source `zshrc` to apply changes:
 
 ## Feedback
 
-Suggestions and improvements are [welcomed](https://github.com/frontendmonster/dotfiles/issues/)!
+Suggestions and improvements are [welcomed](https://github.com/frontendmonster/oh-my-zsh-skill-theme/issues)!

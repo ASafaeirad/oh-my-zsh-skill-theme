@@ -1,4 +1,3 @@
 #!/bin/bash
 
-ln -sf "$( realpath "./skill.zsh-theme" )" /home/monster/.oh-my-zsh/custom/themes
-
+ln -sf "$(realpath "./skill.zsh-theme")" $ZSH_CUSTOM/themes
