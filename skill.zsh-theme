@@ -1,4 +1,5 @@
 #!/bin/bash
+
 GREEN="%{$fg_bold[green]%}"
 YELLOW="%{$fg_bold[yellow]%}"
 CYAN="%{$fg_bold[cyan]%}"
@@ -19,7 +20,6 @@ ZSH_THEME_GIT_COMMITS_AHEAD_PREFIX="$GREEN⥣ "
 ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE="$(git_commits_ahead)"
 ZSH_THEME_GIT_COMMITS_AHEAD_SUFFIX="$RESET"
 
-PROMPT='$WHITE⛛  $CYAN%c $RESET$(git_prompt_info)$RESET '
-RPROMPT='$(git_commits_ahead)$(git_commits_behind)$RESET'
+PROMPT='$WHITE⛛  $YELLOW%c $RESET$(git_prompt_info)$RESET ' RPROMPT='$(git_commits_ahead)$(git_commits_behind)$RESET'
 
 # vim:ft=zsh ts=2 sw=2 sts=2
