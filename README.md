@@ -10,7 +10,7 @@ _The font used in the screenshot is DejaVu Sans Mono Nerd Font_
 Install on [oh-my-zsh](https://ohmyz.sh/) custom themes:
 
 ```bash
-$ wget https://raw.githubusercontent.com/frontendmonster/oh-my-zsh-skill-theme/master/skill.zsh-theme -P $ZSH_CUSTOM/themes/
+$ wget https://raw.githubusercontent.com/frontendmonster/oh-my-zsh-skill-theme/main/skill.zsh-theme -P $ZSH_CUSTOM/themes/
 ```
 
 ### Step 2
